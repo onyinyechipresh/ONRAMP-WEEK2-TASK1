@@ -16,7 +16,7 @@ else if (activationToken == ""){
     document.querySelector('#error').innerHTML="Please enter activation token!!!";
 }
 else if (activationToken.length !== 4){
-    document.querySelector('#error').innerHTML="Token must be a four digit !!!";
+    document.querySelector('#error').innerHTML="Token must be four digit !!!";
 }
 else if (checkbox == null){
 
